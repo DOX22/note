@@ -22,13 +22,19 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      
-      <i class="fa fa-ravelry pb-2" aria-hidden="true" style="font-size: 30px;color: red;"></i>
+      <i
+        class="fa fa-ravelry pb-2"
+        aria-hidden="true"
+        style="font-size: 30px; color: red;"
+      ></i>
       <a class="navbar-brand" href="#"> TECH NOTE</a>
       <!-- NAVBAR -->
       <button
@@ -44,9 +50,9 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="nav navbar-nav mr-auto" >
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link active" data-toggle="tab" href="#javascript"
               >JAVASCRIPT <span class="sr-only">(current)</span></a
             >
           </li>
@@ -61,19 +67,19 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">ANDROID</a>
-
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">LARAVEL</a>
-            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#web">WEB</a>
           </li>
         </ul>
       </div>
     </nav>
     <div class="container jumbotron" style="background-color: #fff;">
-      <div class="row">
-        <div class="col-12 col-sm-12">
-          <!-- <h4 style="color: red;">JavaScript Array Functions Cheat Sheet</h4> -->
+      <div class="row tab-content">
+        <div class="container col-12 col-sm-12 tab-pane active" id="javascript">
           <div class="card border-secondary mb-3" style="max-width: 100%;">
             <div class="card-header">
               JavaScript Array Functions Cheat Sheet
@@ -83,14 +89,15 @@
                 class="card-title"
                 href="https://wweb.dev/resources/js-array-functions-cheatsheet"
               >
-                Cheet Sheet 
+                Cheet Sheet
               </a>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat">( MDN web docs )
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat"
+                >( MDN web docs )
                 <span class="fa fa-link" id="link-icon"></span>
               </a>
 
-
-<!-- 
+              <!-- 
               <p class="card-text">merge two or more arrays</p>
               <p class="syntax-title">syntax</p>
               <p>
@@ -99,9 +106,8 @@
               </p> -->
             </div>
           </div>
-
         </div>
-      <div class="col-12 col-sm-12">
+        <div class="container col-12 col-sm-12 tab-pane fade" id="web">
           <div class="card border-secondary mb-3" style="max-width: 100%;">
             <div class="card-header">
               Responsive Navigation Generator
@@ -111,18 +117,15 @@
                 class="card-title"
                 href="https://wweb.dev/resources/navigation-generator"
               >
-               Responsive NavBar  <span class="fa fa-link" id="link-icon"></span>
+                Responsive NavBar
+                <span class="fa fa-link" id="link-icon"></span>
               </a>
               <!-- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat">( MDN web docs )
                 <span class="fa fa-link" id="link-icon"></span>
               </a> -->
-
             </div>
           </div>
-          
         </div>
-       
-          
       </div>
     </div>
   </body>
